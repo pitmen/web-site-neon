@@ -1,0 +1,12 @@
+source 'http://rubygems.org'
+
+#gem 'anbt-sql-formatter', '~> 0.0.3'
+gem 'capybara'
+gem 'chromedriver-helper'
+gem 'cucumber'
+gem 'headless'
+gem 'imatcher'
+gem 'rspec'
+#gem 'rspec-retry'
+gem 'selenium-webdriver'
+gem 'site_prism'
