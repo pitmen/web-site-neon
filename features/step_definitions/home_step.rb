@@ -10,3 +10,12 @@ end
 Então('eu acesso a aba Perguntas do site da NEON com sucesso') do
     expect(@home).to have_css('#body > header > nav > ul > li:nth-child(3) > a', text: 'Tire suas dúvidas com a gente | Neon')
 end
+
+Quando("eu acessar a NEON com URL inválidos {string}") do |url|
+    @login.acessa_menu_perguntas
+end
+  
+Então("não acesso a página correta") do
+    expect(@home).to have_css('#body > header > nav > ul > li:nth-child(3) > a', text: 'Tire suas dúvidas com a gente | Neon')
+end
+  
