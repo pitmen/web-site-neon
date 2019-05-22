@@ -1,7 +1,8 @@
 # (Website) Neon
 
-* Criar um projeto de automação com os cenários abaixo: Cenário 1: 
+* Criar um projeto de automação com os cenários abaixo: 
 
+## Cenário 1: 
 * A partir do site do Banco Neon www.neon.com.br  valide o texto da resposta da pergunta: “A Neon é só um cartão?” dentro da página ”Perguntas”. 
 
 ## Cenário 2:
